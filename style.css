@@ -1,10 +1,14 @@
+html {
+    overflow-x: hidden;
+    }
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.promo {
+.promo {  
     width: 1920px;
     height: 800px;
     background: url(/IMG/main_bg.png) center center/cover no-repeat;
@@ -30,7 +34,7 @@ h1 {
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 160% */
+    line-height: 24px; 
     text-transform: uppercase;
     text-align: center;
     margin-top: 9px;
@@ -43,7 +47,7 @@ h1 {
     font-size: 41px;
     font-style: normal;
     font-weight: 900;
-    line-height: 41px; /* 100% */
+    line-height: 41px; 
     text-transform: uppercase;
     text-align: center; 
     margin-top: 53px;
@@ -60,7 +64,7 @@ h1 {
     font-size: 80px;
     font-style: normal;
     font-weight: 900;
-    line-height: 80px; /* 100% */
+    line-height: 80px; 
     text-transform: uppercase;
     text-align: center;
     margin-top: 20.5px;
@@ -73,7 +77,7 @@ h1 {
     font-size: 21px;
     font-style: normal;
     font-weight: 300;
-    line-height: 28px; /* 133.333% */
+    line-height: 28px; 
     margin-top: 22.5px;
 }
 
@@ -105,7 +109,7 @@ h1 {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 114.286% */
+    line-height: 24px; 
     text-transform: uppercase;
     text-align: center;
 }
@@ -117,7 +121,7 @@ h1 {
     font-size: 15px;
     font-style: normal;
     font-weight: 100;
-    line-height: 24px; /* 160% */
+    line-height: 24px; 
     text-transform: uppercase;
     text-align: center;
     margin-top: 70.5px;
@@ -138,14 +142,14 @@ h1 {
 /* question */
 
 
-.question {
+.section__1 {
     width: 1920px;
     height: 607px;
     background: #EFEFEF;
 
 }
 
-.question__box__1 {
+.section__1 .section__box {
     display: block;
     width: 1140px;
     height: 607px;
@@ -153,7 +157,7 @@ h1 {
     margin: 0 auto;
 }
 
-.question__text__main__1 {
+.section__1 .main__text {
     display: block;
     width: 582px;
     height: 23px;
@@ -164,12 +168,12 @@ h1 {
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 100% */
+    line-height: 30px; 
     text-transform: uppercase;
     margin: 0 auto;
 }
 
-.sub__line{
+.section__1 .sub__line{
     display: block;
     width: 220px;
     height: 7px;
@@ -178,37 +182,37 @@ h1 {
     margin-top: 18px;
 }
 
-.question__text__1 {
+.section__1 .text {
     color: #4A4A4A;
     text-align: center;
     font-family: Roboto;
     font-size: 23px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px; /* 86.957% */
+    line-height: 20px; 
     text-align: center;
     margin-top: 18.5px;
 }
 
-.img__pc {
+.section__1 .img__pc {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 45.5px;
 }
 
-.text__pc h4 {
+.section__1 .text__pc h4 {
     width: 369px;
     color: #4A4A4A;
     font-family: Roboto;
     font-size: 15px;
     font-style: normal;
     font-weight: 300;
-    line-height: 21px; /* 140% */
+    line-height: 21px;
     text-align: center;
 }
 
-.text__pc {
+.section__1 .text__pc {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -222,7 +226,7 @@ h1 {
     width: 1920px;
 }
 
-.section__2__box {
+.section__2 .section__box {
     display: block;
     height: 549px;
     width:  1140px;
@@ -241,7 +245,7 @@ h1 {
     font-size: 28px;
     font-style: normal;
     font-weight: 900;
-    line-height: 30px; /* 100% */
+    line-height: 30px; 
     text-transform: uppercase;
     margin-left: 391px;
 }
@@ -258,7 +262,7 @@ h1 {
     font-size: 17px;
     font-style: normal;
     font-weight: 300;
-    line-height: 27px; /* 158.824% */
+    line-height: 27px;
     margin-left: 391px;
     margin-top: 10px;
 }
@@ -286,7 +290,7 @@ h1 {
     background: url(/IMG/second_bg.png) center center/cover no-repeat;
 }
 
-.section__3__box {
+.section__3 .section__box {
     display: block;
     width: 1140px;
     height: 447px;
@@ -294,7 +298,7 @@ h1 {
     padding-top: 86px;
 }
 
-.section__3__box .title {
+.section__3 .section__box .title {
     display: block;
     width: 629px;
     height: 24px;
@@ -303,12 +307,12 @@ h1 {
     font-size: 29px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 100% */
+    line-height: 30px;
     text-transform: uppercase;
     margin: 0 auto;
 }
 
-.section__3__box .sub__line{
+.section__3 .section__box .sub__line{
     display: block;
     margin-top: 18px;
 }
@@ -349,7 +353,7 @@ h1 {
     font-size: 17px;
     font-style: normal;
     font-weight: 300;
-    line-height: 20px; /* 117.647% */
+    line-height: 20px; 
     text-align: center;
     margin-top: 24.5px;
 }
@@ -362,7 +366,7 @@ h1 {
     background: #EFEFEF;
 }
 
-.section__4__box{
+.section__4 .section__box{
     display: block;
     width: 1140px;
     height: 631px;
@@ -370,12 +374,12 @@ h1 {
     padding-top: 86px;
 }
 
-.section__4__box img {
+.section__4 .section__box img {
     display: block;
     margin: 0 auto;
 }
 
-.section__4__box .text {
+.section__4 .section__box .text {
     display: flex;
     width: 1140px;
     height: 113px;
@@ -387,17 +391,17 @@ h1 {
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
-    line-height: 43px; /* 143.333% */
+    line-height: 43px; 
     margin-top: 45px;
 }
 
-.section__4__box .promo__button {
+.section__4 .section__box .promo__button {
     margin-top: 51px;
 }
 
 /* section 5 */
 
-.section__5__box {
+.section__5 .section__box {
     display: block;
     width: 1140px;
     height: 512px;
@@ -405,24 +409,24 @@ h1 {
     padding-top: 89px;
 }
 
-.section__5__box img {
+.section__5 .section__box img {
     display: block;
     margin: 0 auto;
 }
 
-.section__5__box .title {
+.section__5 .section__box .title {
     color: #252525;
     text-align: center;
     font-family: Roboto;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 100% */
+    line-height: 30px; 
     text-transform: uppercase;
     margin-top: 36px;
 }
 
-.section__5__box .announcement {
+.section__5 .section__box .announcement {
     display: flex;
     width: 607px;
     height: 31px;
@@ -434,20 +438,20 @@ h1 {
     font-size: 36px;
     font-style: normal;
     font-weight: 900;
-    line-height: 36px; /* 100% */
+    line-height: 36px; 
     text-transform: uppercase;
     margin: 0 auto;
     margin-top: 30px;
 }
 
-.section__5__box p {
+.section__5 .section__box p {
     color: #4A4A4A;
     text-align: center;
     font-family: Roboto;
     font-size: 23px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px; /* 86.957% */
+    line-height: 20px; 
     margin-top: 24.5px;
 }
 
@@ -475,7 +479,7 @@ h1 {
     font-size: 15px;
     font-style: normal;
     font-weight: 300;
-    line-height: 21px; /* 140% */
+    line-height: 21px; 
     text-decoration-line: underline;
 }
 /* 
